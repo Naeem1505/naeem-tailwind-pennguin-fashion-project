@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar Menu */
+
+.nav-container{
+
+    background-image: linear-gradient(40deg, #b85dff 40%, rgb(255,69,69) 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.right-side, .left-side{
+
+    list-style: none;
+   
+}
+
+.right-side li, .left-side li{
+
+    display: inline-block;
+}
+
+.right-side li a, .left-side li a{
+
+    display:block;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 14px;
+}
+
+.right-side li a:hover, .left-side li a:hover{
+
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+
+/* Nested Dropdown Menu */
+
+
+.nav-container > .right-side{
+
+    background-image: linear-gradient(40deg, #b85dff 100%, rgb(255,69,69) 100%);
+
+    display: flex;
+    border-radius: 4px;
+
+}
+
+
+.nav-container .right-side .dropdown{
+
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding-left: 0px;
+    border-radius:10px;
+    margin: 0px;
+
+}
+
+.nav-container .right-side li:hover .dropdown{
+
+    display: grid;
+  
+} 
+
+
+/* Login Form */
+
+/* .login-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.login-form input{
+
+    margin-top: 10px;
+    font-size: 1.2em;
+    padding: 5px 10px;
+
+}
+
+.login-form input[type="submit"]{
+
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.login-form input[type="reset"]{
+
+  
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: black;
+    background-color: white;
+    
+    
+} */
+
+
+/* footer */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  .left{
+  
+    float: left;
+    width: 40%;
+    padding: 15px;
+    
+   
+  
+  }
+  
+  .middle{
+  
+    float: left;
+    width: 20%;
+    padding: 15px;
+  
+  }
+  
+  .right{
+  
+    float: left;
+    width: 40%;
+    padding: 15px;
+  
+  }
+  
+  
+  
+  footer{
+  
+    background-image: linear-gradient(40deg, #b85dff 40%, rgb(255,69,69) 100%);
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  
+  }
+  
